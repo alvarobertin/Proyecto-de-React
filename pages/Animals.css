@@ -1,0 +1,12 @@
+.test {
+    align-content: center;
+    background-image: url("https://as.com/meristation/imagenes/2019/04/24/avances/1556092968_732386_1556093032_noticia_normal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.titulo{
+    color: #c7ff82;
+    text-align: center;
+    font-size: 100px;
+}
