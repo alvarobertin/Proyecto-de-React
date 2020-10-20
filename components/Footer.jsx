@@ -8,7 +8,7 @@ class Footer extends Component {
       //https://codepen.io/anu-uxe/pen/drJERE
       <div class="mt-5 pt-5 pb-5 footer">
         <script src="https://kit.fontawesome.com/41c9dd07b6.js" crossorigin="anonymous"></script>
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="col-lg-5 col-xs-12 about-company">
       <h2>Visitanos!</h2>

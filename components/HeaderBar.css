@@ -3,6 +3,9 @@
     font-weight: bold;
 }
 
+.nav-item {
+    float: right;
+}
 ::selection {
     background-color: red;
     color: royalblue;

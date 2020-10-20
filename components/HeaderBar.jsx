@@ -20,7 +20,7 @@ class HeaderBar extends Component {
           <li className="nav-item">
             <div className="nav-link">
               <Link id = "qs" class = "txt" to='/who' style={{color: 'black'}} activeStyle={{color: 'red'}}>
-                Quienes somos?
+                ¿Quienes somos?
               </Link>
             </div>
           </li>
