@@ -1,13 +1,20 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { setAnimalDidMount } from '../actions/animal';
+import styles from './AnimalDetails.css';
 
 class AnimalDetails extends Component {
   render() {
     return(
       <div>
-        <p>{this.props.animal.name}</p>
-        <p>{this.props.animal.description}</p>
+        <div class="card">
+          <img id = "an" class="card-img-top" src={this.props.animal.img} alt="Card image cap"/>
+          <div class="card-body">
+            <h5 class="card-title">{this.props.animal.name}</h5>
+            <p class="card-text">{this.props.animal.description}</p>
+            <a href="http://localhost:3000/" class="btn btn-primary">Ver otros animales</a>
+          </div>
+        </div>
       </div>
     );
   }

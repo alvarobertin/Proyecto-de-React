@@ -1,0 +1,22 @@
+#an {
+    width: 200px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-text {
+    text-align: left;
+}
+
+h5 {
+    text-align: center;
+}
+
+.card {
+    text-align: center;
+    align-content: right;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 500px;
+}

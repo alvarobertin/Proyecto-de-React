@@ -9,4 +9,5 @@
     color: #c7ff82;
     text-align: center;
     font-size: 100px;
+    -webkit-text-stroke: 2px black;
 }

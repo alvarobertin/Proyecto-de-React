@@ -1,0 +1,9 @@
+.txt {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+::selection {
+    background-color: red;
+    color: royalblue;
+}

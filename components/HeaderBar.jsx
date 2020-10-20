@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import styles from './HeaderBar.css';
 
 class HeaderBar extends Component {
   render() {
@@ -10,7 +11,7 @@ class HeaderBar extends Component {
         <ul className="navbar-nav mr-auto">
           <li className="nav-item active">
             <div className="nav-link">
-              <Link to='/' style={{color: 'black'}} activeStyle={{color: 'red'}}>
+              <Link id = "an" class = "txt" to='/' style={{color: 'black'}} activeStyle={{color: 'red'}}>
                 Animales
               </Link>
               
@@ -18,7 +19,7 @@ class HeaderBar extends Component {
           </li>
           <li className="nav-item">
             <div className="nav-link">
-              <Link to='/who' style={{color: 'black'}} activeStyle={{color: 'red'}}>
+              <Link id = "qs" class = "txt" to='/who' style={{color: 'black'}} activeStyle={{color: 'red'}}>
                 Quienes somos?
               </Link>
             </div>

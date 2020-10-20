@@ -8,7 +8,7 @@ class Animals extends Component {
   render() {
     return(
       <div className='test'>
-        <h1 className='titulo'>Conoce nuestros animales!</h1>
+        <h1 className='titulo'>Animales</h1>
         <div className='row'>
           {
             this.props.animals.map(animal => {
