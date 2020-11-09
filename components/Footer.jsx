@@ -23,7 +23,7 @@ class Footer extends Component {
     </div>
     <div class="col-lg-4  location">
 
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8812.441521281737!2d-76.5583912030479!3d3.448445004575658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a5d22362f7f1%3A0x2c05ed4ac5063ab3!2sZool%C3%B3gico%20De%20Cali!5e0!3m2!1sen!2sco!4v1600639658457!5m2!1sen!2sco" width="400" height="300" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8812.441521281737!2d-76.5583912030479!3d3.448445004575658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a5d22362f7f1%3A0x2c05ed4ac5063ab3!2sZool%C3%B3gico%20De%20Cali!5e0!3m2!1sen!2sco!4v1600639658457!5m2!1sen!2sco"  height="300" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </div>
   </div>
   <div class="row mt-5">

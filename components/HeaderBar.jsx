@@ -5,7 +5,7 @@ import styles from './HeaderBar.css';
 class HeaderBar extends Component {
   render() {
     return(
-      <nav className='navbar navbar-expand-lg navbar-light bg-light sticky-top'>
+      <nav className='navbar navbar-expand-md navbar-light bg-light sticky-top '>
         <div className='navbar-brand'> <img src="https://static.wixstatic.com/media/8fa6bb_378aa4f4944c4a05bff12d30bd1c6c5e~mv2.png/v1/fill/w_320,h_148,al_c,q_85,usm_0.66_1.00_0.01/8fa6bb_378aa4f4944c4a05bff12d30bd1c6c5e~mv2.webp"></img></div>
 
         <ul className="navbar-nav mr-auto">

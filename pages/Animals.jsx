@@ -9,10 +9,10 @@ class Animals extends Component {
     return(
       <div className='test'>
         <h1 className='titulo'>Animales</h1>
-        <div className='row'>
+        <div className='row justify-content-center' id='r'>
           {
             this.props.animals.map(animal => {
-              return <div className='col-sm-4' key={animal.id}>
+              return <div className='col-sm-4-fluid' key={animal.id} id='card'>
                 <AnimalCard animal={animal} />
                 <br />
               </div>
