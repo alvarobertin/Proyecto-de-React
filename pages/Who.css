@@ -12,6 +12,8 @@
   .container {
     background: rgba(204, 204, 204, 0.8);
     text-align: center;
+    padding-top: 10px;
+    margin-top: 15px;
     border: 2px solid gray;
     border-radius: 5px;
   }
@@ -23,4 +25,25 @@
   .row {
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+  .titulos {
+    font-size: larger;
+    font-weight: bold;
+  }
+  .textos {
+    font-size: medium;
+  }
+
+  .fotos {
+    align-content: center;
+    width: 100%;
+  }
+
+  @media (max-width: 768px){
+    .titulos {
+      font-size: medium;
+    }
+    .textos {
+      font-size: small;
+    }
   }
