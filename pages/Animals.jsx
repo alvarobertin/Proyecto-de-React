@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-
+import {getAnimals } from '../actions/animal.js'
 import AnimalCard from '../components/AnimalCard';
 import styles from './Animals.css';
 
@@ -12,7 +12,7 @@ class Animals extends Component {
         <div className='row justify-content-center' id='r'>
           {
             this.props.animals.map(animal => {
-              return <div className='col-sm-4-fluid' key={animal.id} id='card'>
+              return <div className='col-sm-4-fluid' key={animal.Id} id='card'>
                 <AnimalCard animal={animal} />
                 <br />
               </div>
@@ -22,7 +22,11 @@ class Animals extends Component {
       </div>
     );
   }
+  componentDidMount(){
+    this.props.getAnimals();
+  }
 }
+const mapActionToProps = {getAnimals};
 
 const mapStoreToProps = (state) => {
   return {
@@ -30,4 +34,4 @@ const mapStoreToProps = (state) => {
   };
 }
 
-export default connect(mapStoreToProps)(Animals);
+export default connect(mapStoreToProps, mapActionToProps)(Animals);

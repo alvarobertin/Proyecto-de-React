@@ -19,7 +19,7 @@ class AnimalCard extends Component {
           <Link 
             className={styles.button}
             onClick={this.onAnimalCardSelect} 
-            to={`/details/${this.props.animal.name}`}>Ver más</Link>
+            to={`/details/${this.props.animal.Id}`}>Ver más</Link>
             
         </div>
       </div>

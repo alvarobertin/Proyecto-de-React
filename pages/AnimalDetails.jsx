@@ -12,7 +12,7 @@ class AnimalDetails extends Component {
           <div class="card-body">
             <h5 class="card-title">{this.props.animal.name}</h5>
             <p class="card-text">{this.props.animal.description}</p>
-            <a href="http://localhost:3000/" class="btn btn-primary">Ver otros animales</a>
+            <a href="http://localhost:5000/" class="btn btn-primary">Ver otros animales</a>
           </div>
         </div>
       </div>
@@ -20,16 +20,18 @@ class AnimalDetails extends Component {
   }
 
   componentDidMount() {
-    const name = this.props.match.params.name;
-    this.props.setAnimalDidMount(name);
-    console.log(name);
+    const id = this.props.match.params.id;
+    this.props.setAnimalDidMount(id);
+    console.log(id);
+    
   }
 }
 
 const mapStateToProps = (state) => {
-  
+  console.log("2");
+    console.log(state.animal.animals);
   return {
-    animal: state.animal.animal
+    animal: state.animal.animals
   };
 }
 
